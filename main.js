@@ -17,8 +17,7 @@ calcBtn.addEventListener("click", ()=>{
 })
 
 function calcThat(){
-    console.log("ghghg")
-
+    
     let p = parseFloat(amt.value)
     let r = parseFloat(i.value)/100/12
     let n = parseFloat(y.value)*12
