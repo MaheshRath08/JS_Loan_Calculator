@@ -35,7 +35,6 @@ input[type="number"]{
     outline: none;
     border-radius: 5px;
     border: 1px solid #d4d4dd;
-    position: relative;
     text-indent: 2rem;
     width: 420px;
 }
@@ -79,4 +78,15 @@ input[type="number"]:focus{
     text-align: left;
     font-size: 1rem;
     color: #353535;
+}
+
+@media (max-width:499px) {
+    .container{
+        width: 100vw;
+        top: 20%;
+    }
+    input[type="number"]{
+        width: 90%;
+        font-size: 70%;
+    }
 }
